@@ -1,5 +1,5 @@
 import React from 'react'
-import Data from './api'
+import Data from './body'
 
 
 function App() {
