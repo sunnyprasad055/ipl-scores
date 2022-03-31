@@ -21,3 +21,20 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+ .note {
+   color: red;
+ }
+
+ .scl-btn {
+   text-decoration: none;
+   color: #fff;
+   
+ }
+
+.scl-btn:hover {
+  color: #fff;
+}
+
+.button {
+margin: 10px;
+}
