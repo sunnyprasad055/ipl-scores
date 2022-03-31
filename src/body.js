@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './style.css'
 import { Card, ListGroup, ListGroupItem, Container, Navbar, Button } from 'react-bootstrap';
-import { FaInstagram, FaLinkedin, FaFacebookF } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin, FaFacebookF, FaGithub } from 'react-icons/fa'
 
 const Api = () => {
 
@@ -161,6 +161,7 @@ const Api = () => {
                     <Button variant="primary" className='button'><a href='https://www.instagram.com/sunnyyyprasad/' className='scl-btn' target="blank"><FaInstagram /> instagram</a></Button>
                     <Button variant="primary" className='button'><a href='https://www.linkedin.com/in/sunny-prasad055/' className='scl-btn' target="blank"><FaLinkedin /> LinkedIn</a></Button>
                     <Button variant="primary" className='button'><a href='https://www.facebook.com/profile.php?id=100007362766503' className='scl-btn' target="blank"><FaFacebookF /> Facebook</a></Button>
+                    <Button variant="primary" className='button'><a href='https://github.com/sunnyprasad055' className='scl-btn' target="blank"><FaGithub /> Github</a></Button>
                 </Card.Body>
             
         </Card>
