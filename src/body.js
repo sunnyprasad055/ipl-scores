@@ -62,13 +62,14 @@ const Api = () => {
                             <ListGroupItem>Date and Time: {sunny.dateTimeGMT}</ListGroupItem>
                             <ListGroupItem>match Type: {sunny.matchType}</ListGroupItem>
                             <ListGroupItem>{sunny.teams[1]}</ListGroupItem>
-                            <ListGroupItem>runs : {sunny.score[0].r}</ListGroupItem>
-                            <ListGroupItem>Wickets : {sunny.score[0].w}</ListGroupItem>
-                            <ListGroupItem>Overs : {sunny.score[0].o}</ListGroupItem>
+                             <ListGroupItem>runs : {sunny?.score[0]?.r}</ListGroupItem>
+                            <ListGroupItem>Wickets : {sunny.score[0]?.w}</ListGroupItem>
+                            <ListGroupItem>Overs : {sunny.score[0]?.o}</ListGroupItem>
                             <ListGroupItem>{sunny.teams[0]}</ListGroupItem>
-                            <ListGroupItem>runs : {sunny.score[1].r}</ListGroupItem>
-                            <ListGroupItem>Wickets : {sunny.score[1].w}</ListGroupItem>
-                            <ListGroupItem>Overs : {sunny.score[1].o}</ListGroupItem>
+                            <ListGroupItem>runs : {sunny.score[1]?.r}</ListGroupItem>
+                            <ListGroupItem>Wickets : {sunny.score[1]?.w}</ListGroupItem>
+                            <ListGroupItem>Overs : {sunny.score[1]?.o}</ListGroupItem>
+                             
                         </ListGroup>
                         
                     </Card>
@@ -100,13 +101,13 @@ const Api = () => {
                             <ListGroupItem>{sunny.dateTimeGMT}</ListGroupItem>
                             <ListGroupItem>match Type: {sunny.matchType}</ListGroupItem>
                             <ListGroupItem>{sunny.teams[1]}</ListGroupItem>
-                            <ListGroupItem>runs : {sunny.score[0].r}</ListGroupItem>
-                            <ListGroupItem>Wickets : {sunny.score[0].w}</ListGroupItem>
-                            <ListGroupItem>Overs : {sunny.score[0].o}</ListGroupItem>
+                            <ListGroupItem>runs : {sunny.score[0]?.r}</ListGroupItem>
+                            <ListGroupItem>Wickets : {sunny.score[0]?.w}</ListGroupItem>
+                            <ListGroupItem>Overs : {sunny.score[0]?.o}</ListGroupItem>
                             <ListGroupItem>{sunny.teams[0]}</ListGroupItem>
-                            <ListGroupItem>runs : {sunny.score[1].r}</ListGroupItem>
-                            <ListGroupItem>Wickets : {sunny.score[1].w}</ListGroupItem>
-                            <ListGroupItem>Overs : {sunny.score[1].o}</ListGroupItem>
+                            <ListGroupItem>runs : {sunny.score[1]?.r}</ListGroupItem>
+                            <ListGroupItem>Wickets : {sunny.score[1]?.w}</ListGroupItem>
+                            <ListGroupItem>Overs : {sunny.score[1]?.o}</ListGroupItem>
                         </ListGroup>
                     </Card>
                     </Container>
