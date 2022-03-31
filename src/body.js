@@ -97,7 +97,7 @@ const Api = () => {
                         <ListGroup className="list-group-flush">
                             <ListGroupItem>{sunny.status}</ListGroupItem>
                             <ListGroupItem>{sunny.dateTimeGMT}</ListGroupItem>
-                            <ListGroupItem>runs : {sunny.score[0].r}</ListGroupItem>
+                            <ListGroupItem>runs : {sunny.score[0]?.r}</ListGroupItem>
                             <ListGroupItem>{sunny.dateTimeGMT}</ListGroupItem>
                             <ListGroupItem>match Type: {sunny.matchType}</ListGroupItem>
                             <ListGroupItem>{sunny.teams[1]}</ListGroupItem>
