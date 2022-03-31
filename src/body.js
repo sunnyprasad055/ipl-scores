@@ -17,7 +17,7 @@ const Api = () => {
      const data = () => {
                  axios.get('https://api.cricapi.com/v1/currentMatches?apikey=e4495ac1-4fe1-43ce-8a5d-d3a257a9fb3d&offset=0')
                             .then(res => {
-                                
+                                console.log(res.data)
                                 setCurrentMatches(res.data.data)
                             }).catch(err => {
                                 console.log(err)
@@ -135,7 +135,7 @@ const Api = () => {
                         <ListGroup className="list-group-flush">
                             <ListGroupItem>{sunny.status}</ListGroupItem>
                             <ListGroupItem>{sunny.dateTimeGMT}</ListGroupItem>
-                            <ListGroupItem>runs : {sunny.score[0].r}</ListGroupItem>
+                            <ListGroupItem>runs : {sunny.score[0]?.r}</ListGroupItem>
                             <ListGroupItem>{sunny.dateTimeGMT}</ListGroupItem>
                             <ListGroupItem>match Type: {sunny.matchType}</ListGroupItem>
                             
